@@ -76,7 +76,7 @@ const SingleApp = () => {
       <p className="text-[#fff] mt-6 mb-16"></p>
 
       {/* Componente de pie de página */}
-      <Footer />
+
     </section>
   )
 }
