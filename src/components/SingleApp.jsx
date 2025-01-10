@@ -32,7 +32,7 @@ const SingleApp = () => {
           Volver
         </Link>
       </Fade>
-
+      <br></br>
       {/* Título del proyecto seleccionado */}
       <h2 className="text-4xl font-bold mb-9 max-sm: font-serif text-center">{projectSelected.title}</h2>
 
