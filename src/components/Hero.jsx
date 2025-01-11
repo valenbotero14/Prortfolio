@@ -97,21 +97,15 @@ const Hero = () => {
 
 {/*----------------------------------------------------------------------*/}
 
-        <Fade direction="up" delay="60" triggerOnce={true}>
-          {/* Este componente "Fade" es igual que en el fragmento anterior. Se aplica un efecto de desvanecimiento al contenido que lo envuelve, en este caso, el párrafo con el texto.
-            - direction="up" indica que el contenido se moverá hacia arriba mientras se desvanece.
-            - delay="60" establece un retraso de 60ms antes de que se inicie el efecto de desvanecimiento.
-            - triggerOnce={true} significa que el efecto solo ocurrirá una vez, cuando el componente se hace visible por primera vez. */}
-
-          <p className="text-[#fff] px-4 sm:px-0 w-full max-w-[520px] text-justify text-base sm:text-lg md:text-xl">
-
-            Impulsada por la curiosidad y la pasión por la tecnología,
-            me enfoco en desarrollar soluciones innovadoras que fusionen creatividad con funcionalidad.
-            Estoy en constante crecimiento y fortalecimiento de mis habilidades técnicas y blandas,
-            con el objetivo de diseñar proyectos impactantes mientras enfrento nuevos desafíos. Actualmente,
-            sigo perfeccionando mi dominio de las tecnologías y ampliando mi experiencia práctica.
-          </p>
-        </Fade>
+<Fade direction="up" delay="60" triggerOnce={true}>
+  <p className="text-[#fff] px-4 sm:px-6 md:px-0 w-full max-w-[90%] sm:max-w-[520px] text-justify text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+    Impulsada por la curiosidad y la pasión por la tecnología,
+    me enfoco en desarrollar soluciones innovadoras que fusionen creatividad con funcionalidad.
+    Estoy en constante crecimiento y fortalecimiento de mis habilidades técnicas y blandas,
+    con el objetivo de diseñar proyectos impactantes mientras enfrento nuevos desafíos.
+    Actualmente, sigo perfeccionando mi dominio de las tecnologías y ampliando mi experiencia práctica.
+  </p>
+</Fade>
       </header>
     </section>
   )
