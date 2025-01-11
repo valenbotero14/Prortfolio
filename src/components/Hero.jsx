@@ -103,7 +103,7 @@ const Hero = () => {
             - delay="60" establece un retraso de 60ms antes de que se inicie el efecto de desvanecimiento.
             - triggerOnce={true} significa que el efecto solo ocurrirá una vez, cuando el componente se hace visible por primera vez. */}
 
-          <p className="text-[#fff] w-full sm:w-full max-w-[90%] sm:max-w-[520px] text-justify text-base sm:text-lg md:text-xl lg:text-1xl">
+          <p className="text-[#fff] px-4 sm:px-0 w-full max-w-[520px] text-justify text-base sm:text-lg md:text-xl">
 
             Impulsada por la curiosidad y la pasión por la tecnología,
             me enfoco en desarrollar soluciones innovadoras que fusionen creatividad con funcionalidad.
