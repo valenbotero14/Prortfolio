@@ -44,12 +44,21 @@ const Icons = () => {
         </a>
 
         <a
-          href="/public/docs/Curriculum Es.pdf"
-          className="flex justify-center items-center bg-[#343639] mr-3 w-32 my-7 py-3 px-6 rounded-full font-semibold text-sm hover:scale-105 hover:transition-all hover:ease-in-out max-sm:my-3 max-sm:w-[14rem]"
-        >
-          <CgFileDocument style={{ fontSize: '1.3rem' }} />
-          <p className="ml-3">My CV</p>
-        </a>
+  href="/docs/Curriculum Es.pdf"
+  className="flex justify-center items-center bg-[#343639] mr-3 w-32 my-7 py-3 px-6 rounded-full font-semibold text-sm hover:scale-105 hover:transition-all hover:ease-in-out max-sm:my-3 max-sm:w-[14rem]"
+  onClick={(e) => {
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = '/docs/Curriculum Es.pdf';
+    link.download = 'Curriculum Es.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+>
+  <CgFileDocument style={{ fontSize: '1.3rem' }} />
+  <p className="ml-3">My CV</p>
+</a>
       </div>
     </>
   )
