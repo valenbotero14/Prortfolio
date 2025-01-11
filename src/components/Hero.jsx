@@ -103,12 +103,7 @@ const Hero = () => {
             - delay="60" establece un retraso de 60ms antes de que se inicie el efecto de desvanecimiento.
             - triggerOnce={true} significa que el efecto solo ocurrirá una vez, cuando el componente se hace visible por primera vez. */}
 
-          <p className="text-[#fff] w-full max-w-[520px] text-justify max-sm:w-[365px]">
-          {/* El párrafo tiene una clase de estilo en Tailwind CSS:
-            - text-[#fff] establece el color del texto en un tono gris específico.
-            - w-[520px] asigna un ancho de 520 píxeles al párrafo.
-            - max-sm:w-[365px] ajusta el ancho a 365 píxeles cuando la pantalla es pequeña (en dispositivos móviles).
-            - max-sm:text-justify y text-justify aseguran que el texto se alinee de forma justificada tanto en pantallas pequeñas como grandes. */}
+          <p className="text-[#fff] w-full max-w-[520px] text-justify text-base sm:text-lg  lg:text-1xl">
 
             Impulsada por la curiosidad y la pasión por la tecnología,
             me enfoco en desarrollar soluciones innovadoras que fusionen creatividad con funcionalidad.
