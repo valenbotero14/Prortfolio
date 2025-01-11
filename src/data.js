@@ -8,7 +8,7 @@ export const projects = [
   {
     id: 1,
     image1: img1,
-    name: 'MyApp1',
+    name: 'Prueba técnica',
     title: 'Prueba técnica | XM',
     category: 'Python',
     url1: 'https://github.com/valenbotero14/Prueba-Tecnica',
