@@ -64,7 +64,7 @@ const Hero = () => {
             - "delay='40'" establece un retraso de 40ms antes de que la animación se inicie.
             - "triggerOnce={true}" asegura que la animación solo se ejecute una vez cuando el elemento entre en la vista. */}
 
-            <h1 className="text-[40px] leading-tight max-sm:text-[40px] text-center font-serif">
+            <h1 className="text-[30px] leading-tight max-sm:text-[30px] text-center font-serif">
             {/* Encabezado de nivel 1 (h1), usado para el nombre:
               - "text-[40px]" establece un tamaño de fuente de 40 píxeles.
               - "leading-tight" reduce el espacio entre las líneas de texto, haciéndolo más compacto.
@@ -74,7 +74,7 @@ const Hero = () => {
 
               Valentina V. Botero
 
-              <p className="text-[20px] max-sm:text-[30pxrem] font-mono">
+              <p className="text-[20px] max-sm:text-[1.0rem] font-mono">
               {/* Etiqueta de párrafo (p) para el cargo profesional:
                 - "text-[30px]" establece un tamaño de fuente de 30 píxeles.
                 - "max-sm:text-[30pxrem]" tiene un error de sintaxis, debería ser algo como "max-sm:text-[30px]" para mantener el tamaño consistente en pantallas pequeñas. */}
@@ -103,7 +103,7 @@ const Hero = () => {
             - delay="60" establece un retraso de 60ms antes de que se inicie el efecto de desvanecimiento.
             - triggerOnce={true} significa que el efecto solo ocurrirá una vez, cuando el componente se hace visible por primera vez. */}
 
-          <p className="text-[#fff] w-[520px] max-sm:w-[365px] max-sm:text-justify text-justify">
+          <p className="text-[#fff] w-full  max-w-[520px]  text-justify ">
           {/* El párrafo tiene una clase de estilo en Tailwind CSS:
             - text-[#fff] establece el color del texto en un tono gris específico.
             - w-[520px] asigna un ancho de 520 píxeles al párrafo.

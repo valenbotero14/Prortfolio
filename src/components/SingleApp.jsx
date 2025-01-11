@@ -39,7 +39,7 @@ const SingleApp = () => {
 
       {/* Descripción o resumen del proyecto */}
       <p className="text-[#fff] text-justify">{projectSelected.resume}</p>
-
+      <p className="text-[#fff] my-14">Se emplearon herramientas como Qt Designer, Python y la librería PyQt5.</p>
       {/* Botones para ver el código y el proyecto en vivo */}
       <div className="flex justify-around mt-4 mb-10 max-sm:flex-col max-sm:items-center max-sm:py-6">
         {/* Botón para ver el código en GitHub */}
@@ -70,9 +70,9 @@ const SingleApp = () => {
         title={projectSelected.title}
         className="rounded-3xl w-full object-cover max-sm:h-52"
       />
-
+      
       {/* Espacios en blanco (probablemente para separación) */}
-      <p className="text-[#fff] my-14"></p>
+  
       <p className="text-[#fff] mt-14"></p>
       <p className="text-[#fff] mt-6 mb-16"></p>
 

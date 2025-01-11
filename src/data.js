@@ -10,7 +10,7 @@ export const projects = [
     image1: img1,
     name: 'MyApp1',
     title: 'Prueba técnica | XM',
-    category: 'Qt Designer, Python, librería PyQt5',
+    category: 'Python',
     url1: 'https://github.com/valenbotero14/Prueba-Tecnica',
     /*url2: '',*/
     resume:
