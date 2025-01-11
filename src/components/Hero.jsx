@@ -98,7 +98,7 @@ const Hero = () => {
 {/*----------------------------------------------------------------------*/}
 
 <Fade direction="up" delay="60" triggerOnce={true}>
-  <p className="text-[#fff] px-4 sm:px-6 md:px-0 w-full max-w-[90%] sm:max-w-[520px] text-justify text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+  <p className="text-[#fff] w-full max-w-[90%] sm:max-w-[520px] text-justify text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed pl-4 sm:pl-8">
     Impulsada por la curiosidad y la pasión por la tecnología,
     me enfoco en desarrollar soluciones innovadoras que fusionen creatividad con funcionalidad.
     Estoy en constante crecimiento y fortalecimiento de mis habilidades técnicas y blandas,
