@@ -48,7 +48,7 @@ const Footer = () => {
       <p className="mt-16 mb-10 text-sm text-gray-400 font-medium text-center">
         <span className="mr-2">©</span> {/* Símbolo de copyright */}
         <span className="ml-2">
-          Hecho con Amor por la Valen {/* Mensaje de autoría */}
+          Hecho con 🖤 {/* Mensaje de autoría */}
         </span>
       </p>
     </div>
